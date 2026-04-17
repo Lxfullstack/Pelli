@@ -1,8 +1,10 @@
 import movies from '../movies'
 import MovieCard from "../components/MovieCard";
+import { Analytics } from "@vercel/analytics/react";
 
 const Home = () => {
   return (
+    <>
     <div className="bg-black min-h-screen p-6">
         <div className="mb-6">
             <h1 className="text-white text-2xl font-bold">
@@ -17,6 +19,8 @@ const Home = () => {
         ))}
       </div>
     </div>
+    <Analytics />
+    </>
   );
 };
 
