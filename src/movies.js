@@ -6,7 +6,7 @@ const movies = [
     title: "The Legend of Aang 2026 (The last airbender)",
     poster: avatar,
     description: "Legend of aang  the last airbender by paramount movies",
-    downloadUrl: "https://example.com/sample-movie.mp4"
+    downloadUrl: ""
   }
 ];
 
